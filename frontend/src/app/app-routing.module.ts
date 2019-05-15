@@ -14,7 +14,8 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  }
+  },  { path: 'creer-compte-candidat', loadChildren: './creer-compte-candidat/creer-compte-candidat.module#CreerCompteCandidatPageModule' }
+
 ];
 
 @NgModule({

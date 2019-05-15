@@ -16,6 +16,11 @@ export class AppComponent {
       icon: 'home'
     },
     {
+      title:'Créer Compte Candidat',
+      url:'/creer-compte-candidat',
+      icon:'md-add-circle'
+    },
+    {
       title: 'List',
       url: '/list',
       icon: 'list'
